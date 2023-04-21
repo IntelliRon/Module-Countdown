@@ -25,6 +25,14 @@ nav div {
     border-radius: 5px;
 }
 
+.selected {
+    background-color: black !important;
+}
+
+.deadlineOver {
+    background-color: red;
+}
+
 nav div a {
     color: white;
     text-decoration: none;
