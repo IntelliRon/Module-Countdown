@@ -33,6 +33,10 @@ nav div {
     background-color: red;
 }
 
+.deadlineAlmostOver {
+    background-color: orange;
+}
+
 a {
     text-decoration: none;
     color: white !important;
