@@ -10,39 +10,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <a href="index.html"><h1>Deadline Timer</h1></a>
+    <h1>Module Countdown</h1>
 
-    <nav id="indexNav">
-        <div class="tooltip deadlineOver">
-            <a href="cm1102.html">CM1102</a>
-            <span class="tooltiptext">Problem Solving and Modelling</span>
-        </div>
-        <div class="tooltip deadlineOver">
-            <a href="cm1111.html">CM1111</a>
-            <span class="tooltiptext">Internet Security and Performance</span>
-        </div>
-        <div class="tooltip">
-            <a href="cm1113.html">CM1113</a>
-            <span class="tooltiptext">Software Design and Development</span>
-        </div>
-        <div class="tooltip deadlineOver">
-            <a href="cm1114.html">CM1114</a>
-            <span class="tooltiptext">Web Design Technologies</span>
-        </div>
-        <div class="tooltip deadlineOver">
-            <a href="cm1116.html">CM1116</a>
-            <span class="tooltiptext">Visual Development Fundamentals</span>
-        </div>
-    </nav>
+    <div class="moduleDeadline">
+        <h3>CM3130 | Pitch</h3>
+        <p>3D Modelling | Pitch</p>
+        <p>7th October 2024 | 14:00 to 17:00</p>
+        <p class="moduleCountdown" deadline="Oct 7, 2024 14:00:00"></p>
+    </div>
 
-    <main style="height: 70vh">
-        <div class="wrapper">
-            <p style="font-size: 100px;">Please select a module</p>
-        </div>
-    </main>
+    <div class="moduleDeadline">
+        <h3>CM3113 | Coursework Task 1</h3>
+        <p>Concurrent Programming | Coursework Task 1</p>
+        <p>7th November 2024 | 13:00</p>
+        <p class="moduleCountdown" deadline="Nov 7, 2024 13:00:00"></p>
+    </div>
+
+    <div class="moduleDeadline">
+        <h3>CM3113 | Coursework Tasks 2-5</h3>
+        <p>Concurrent Programming | Coursework Tasks 2-5</p>
+        <p>21st November 2024 | 13:00</p>
+        <p class="moduleCountdown" deadline="Nov 21, 2024 13:00:00"></p>
+    </div>
+
+    <div class="moduleDeadline">
+        <h3>CM3130 | Poster</h3>
+        <p>Interdisciplinary Team Project | Poster</p>
+        <p>21st November 2024 | 13:00</p>
+        <p class="moduleCountdown" deadline="Nov 21, 2024 13:00:00"></p>
+    </div>
+
+    <div class="moduleDeadline">
+        <h3>CM3130 | Live Peer Review</h3>
+        <p>Interdisciplinary Team Project | Live Peer Review</p>
+        <p>22nd November 2024 | 09:00 to 12:00</p>
+        <p class="moduleCountdown" deadline="Nov 22, 2024 09:00:00"></p>
+    </div>
+
+    <div class="moduleDeadline">
+        <h3>CM3130 | Showcase Event</h3>
+        <p>Interdisciplinary Team Project | Showcase Event</p>
+        <p>29th November 2024 | 09:00 to 12:00</p>
+        <p class="moduleCountdown" deadline="Nov 29, 2024 09:00:00"></p>
+    </div>
+
+    <div class="moduleDeadline">
+        <h3>CM3151 | Coursework</h3>
+        <p>Machine Learning | Coursework</p>
+        <p>3rd December 2024 | 13:00</p>
+        <p class="moduleCountdown" deadline="Dec 3, 2024 13:00:00"></p>
+    </div>
+
+    <div class="moduleDeadline">
+        <h3>CM3130 | Final Project</h3>
+        <p>3D Modelling | Final Project</p>
+        <p>5th December 2024 | 13:00</p>
+        <p class="moduleCountdown" deadline="Dec 5, 2024 13:00:00"></p>
+    </div>
+
+    <div class="moduleDeadline">
+        <h3>CM3113 | Exam</h3>
+        <p>Concurrent Programming | Exam</p>
+        <p>No Date Specified Yet: 2nd-13th December 2024</p>
+        <p></p>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
